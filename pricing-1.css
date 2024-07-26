@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind:wght@300;400;500;600;700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #c1bcee, #ffe9fe);
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 220px;
+  height: 400px;
+  /* margin: 100px auto; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+}
+.card-details {
+  position: absolute;
+  padding: 20px;
+}
+/* .card-container p {
+  margin-left: 50px;
+  margin-top: 10px;
+  font
+} */
+.price {
+  display: flex;
+  /* position: absolute; */
+
+  padding-left: 53px;
+
+  /* align-items: center;
+  justify-content: center; */
+}
+#doler {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-right: 1.2px;
+}
+#ten {
+  margin-top: 6px;
+  font-size: 3em;
+  font-weight: 500;
+}
+#month {
+  margin-top: 50px;
+  margin-left: 1.5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#basic {
+  padding-left: 65px;
+  font-size: 1.1rem;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.divide {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.future {
+  text-align: center;
+}
+.future ul {
+  list-style: none;
+}
+.fa-circle-check {
+  color: green;
+}
+.fa-circle-xmark {
+  color: red;
+  margin-right: 1px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 28px;
+  margin-left: 30px;
+  padding: 9px 22px;
+  border: none;
+  background-color: #790c5a;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: #953479;
+  transform: scale(1.1);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.sub-1 {
+  color: white;
+  /* box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.712); */
+  /* margin-right: 4px; */
+  background-image: linear-gradient(90deg, #953479, #953479);
+  width: 220px;
+  height: 445px;
+}
+
+.button-2 {
+  background-color: white;
+  color: black;
+}
+.button-2:hover {
+  background-color: rgb(221, 207, 207);
+}
+.divide-2 {
+  background-color: white;
+}
+.popular {
+  background-color: gold;
+  display: inline-block;
+  color: black;
+  transform: translateX(100px);
+  padding: 5px 11px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+/* #doler {
+  margin-left: 40px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1.5em;
+  position: relative;
+}
+#ten {
+  margin-left: 60px;
+  position: absolute;
+  margin-top: ;
+} */
